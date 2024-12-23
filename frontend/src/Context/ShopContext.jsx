@@ -12,7 +12,7 @@ const AppContextProvider=({children})=>{
     const [userInfo, setUserInfo] = useState({});
     const [hiddenNavbar, setHiddenNavbar] = useState(false);
 
-    const URL = "http://localhost:8000";
+    const URL = "https://shopper-an-ecomm-website-using-mern.onrender.com";
     
  
     const darkModeValue=(mode)=>{
